@@ -1,13 +1,16 @@
-# Curso de Bases de datos con PostgreSQL
+PostgreSQL Database Course
+Steps to start the project
 
-## Pasos para levantar el proyecto
+Make sure Docker Desktop or the Docker daemon is running.
 
-1. Tener docker Desktop o el demonio de Docker corriendo
-2. Clonar el proyecto
-3. Navegar a la carpeta del proyecto
-4. Ejecutar ```docker compose up -d```
-5. Revisar el **archivo docker-compose.yml** para los usuarios y contraseñas
+Clone the project.
+
+Navigate to the project folder.
+
+Run:
+
+    ```docker compose up -d```
+    
 
 
-# PosgreSql
-# PosgreSql
+Check the docker-compose.yml file for the database usernames and passwords.
