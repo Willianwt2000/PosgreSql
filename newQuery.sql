@@ -23,7 +23,6 @@
 --        TRIM(SUBSTRING(name, POSITION(' ' in name))) as trimmed_last_name
 -- from users;
  -- SELECT *
--- from users -- delete from users
 
 UPDATE users
 set first_name = SUBSTRING(name, 0, POSITION(' ' in name)),
